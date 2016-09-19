@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=El+Messiri&subset=latin,cyrillic); 
+
+/*
+html, body{
+	height: 100%;
+}
+*/
+body {
+    padding-top: 0;
+    background-color: #363534;
+    color: #fdf9f1;
+    margin: 0;
+    font-size: 15px;
+/*    min-width: 320px;*/
+}
+p{
+    margin: 0px 0px 0px 20px;   
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.row {
+    margin-right: 0px;
+}
+
+.col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+header {
+    padding-top: 0;
+    color: #ffffff;
+    background-color: #160b52;
+    background-position: center center;
+    background-size: cover;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-default {
+    border: none;
+    background: rgba(34, 34, 34, 0.57);
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    padding-right: 2px;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #b52536;
+    background-color: transparent;
+}
+
+.navbar-right {
+    margin-right: 20px;
+}
+#logo img {
+    width: 200px;
+    margin-top: -10px;
+}
+#main {
+    background: url(../img/bg/bg_main.jpg) center center no-repeat;
+	background-size: cover;
+/*	height: 100vh;*/
+    height: 100%;
+/*	min-height: 500px;    */
+}
+#main h3 {
+    font-family: 'El Messiri', sans-serif;
+    padding-bottom: 10%;
+    padding-top: 45%;
+    margin-right: 5%;
+}
+
+#main p {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 25px;
+    margin-left: 25px;
+    line-height: 35px;
+    padding-bottom: 60%;
+}
+#img-serv img {
+	margin-top: 15px;
+} 
+/*
+#text-serv p {
+    margin-top:15px;
+    margin-left:30px;
+    text-align: justify;
+    padding: 0.3% 0;
+}
+*/
+#services h3, h4 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 34px;
+}
+#services p{
+    font-family: 'El Messiri', sans-serif;
+    text-align: left;
+    line-height: 2;
+    margin-left: 30px;
+    font-size: 18px;
+}
+#foto p {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+#foto h3, h4 {
+    font-family: 'El Messiri', sans-serif;
+}
+#foto img:hover{
+    opacity: 0.5;
+}
+.mosaicflow__item {
+    padding: 3px;
+}
+
+.mosaicflow__column {
+    float: left;
+}
+
+.mosaicflow__item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.mosaicflow__item img:hover {
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+a:active,
+a:focus{
+    outline: none !important;
+}
+.text-position {
+    margin-left: 15%;
+    text-align: left;
+    
+}
+#contact {
+    font-family: 'El Messiri', sans-serif;
+}
+#contact {
+    background-color: #363534;
+    background-repeat: repeat;
+}
+#contact a {
+    font-family: monospace;
+    color: #0a0808;
+    font-size: 16px;
+}
+
+#contact h4,
+h3 {
+    font-family: 'El Messiri', sans-serif;
+}
+
+#contact .col-md-12 {
+    padding-top: 25px;
+}
+
+.col-md-4 hr {
+    line-height: 20px;
+}
+
+#scrollup {
+    position: fixed;
+    z-index: 999;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+    padding: 15px 10px 10px;
+    cursor: pointer;
+    opacity: .5;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #5d5d5d;
+}
+
+footer {
+    background-image: url(../img/bg/binding_dark.png);
+    background-repeat: repeat;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #3b3736;
+}
+
+@media (max-width: 780px) {
+    #text-serv p{
+        text-align: center;
+        word-break: normal;
+    }
+     #img-serv img{
+        margin-left: 20px;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #main
+    {
+/*        background-image: url(../img/bg/bg_maibn.jpg);*/
+        background-size: cover;
+/*
+        
+        background: url(../img/bg/bg_main_cr.jpg) center center no-repeat;
+	    background-size: cover;
+
+        background: url(../img/bg/bg_main.jpg) center center no-repeat;
+	    background-size: cover;
+	    height: 100vh;
+        width: 50%;
+        height: 300px;
+*/
+    }
+    #logo img {
+        width: 100px;
+    }
+    #main h3 {
+        font-size: 16px;
+        
+        padding-top: 15%;
+        padding-bottom: 0px;
+    }
+    #main p {
+        font-size: 12px;
+        padding-bottom: 10px;
+        line-height: 25px;
+        
+    }
+    #foto p {
+        font-size: 12px;
+    }
+    #foto h3 {
+        font-size: 16px;
+    }
+    #services p {
+        font-size: 12px;
+    }
+    #services h3 {
+        font-size: 16px;
+    }
+    #price h4,
+    h5 {
+        font-size: 14px;
+    }
+    #price p {
+        font-size: 12px;
+    }
+    #img-serv img{
+        margin: 0;
+        text-align: center;
+    }
+    #text-serv p{
+       text-align: center;
+	   font-size: 12px;
+       padding: 0;
+        margin: 0;
+    }
+    
+}
+
+/*
+
+@media only screen and (min-width : 1200px) {
+    #text-serv p{
+        margin-left: 40%;
+    }
+}
+*/
+

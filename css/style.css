@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=El+Messiri&subset=latin,cyrillic); 
+@import url(https://fonts.googleapis.com/css?family=El+Messiri&subset=latin,cyrillic);
 
 /*
 html, body{
@@ -14,14 +14,14 @@ body {
 /*    min-width: 320px;*/
 }
 p{
-    margin: 0px 0px 0px 20px;   
+    margin: 0 0 0 20px;
 }
 img{
 	max-width: 100%;
 	height: auto;
 }
 .row {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .col-md-12 {
@@ -132,7 +132,7 @@ header {
     display: block;
     width: 100%;
     height: auto;
-    border: 0px solid transparent;
+    border: 0 solid transparent;
     border-radius: 4px;
     background-color: #fff;
 }
@@ -234,7 +234,7 @@ footer {
         font-size: 16px;
         
         padding-top: 15%;
-        padding-bottom: 0px;
+        padding-bottom: 0;
     }
     #main p {
         font-size: 12px;

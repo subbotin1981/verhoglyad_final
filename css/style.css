@@ -73,19 +73,22 @@ header {
 }
 #main h3 {
     font-family: 'El Messiri', sans-serif;
-    padding-bottom: 10%;
-    padding-top: 45%;
+    padding-bottom: 5%;
+    padding-top: 30%;
     margin-right: 5%;
 }
-
+#main_{
+    padding-bottom: 25%;
+    padding-top: 20%;
+}
 #main p {
     font-family: 'El Messiri', sans-serif;
     font-size: 16px;
     font-weight: 100;
     margin-right: 25px;
     margin-left: 25px;
-    line-height: 35px;
-    padding-bottom: 60%;
+    line-height: 30px;
+
 }
 #img-serv img {
 	margin-top: 15px;

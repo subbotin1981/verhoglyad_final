@@ -1,4 +1,39 @@
 @import url(https://fonts.googleapis.com/css?family=El+Messiri&subset=latin,cyrillic);
+@import "http://webfonts.ru/import/gardensc.css";
+/*
+	GardensC, 400
+*/
+/* font-family: "ComfortaaRegular"; */
+@font-face {
+    font-family: "ComfortaaRegular";
+    src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot");
+    src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ComfortaaRegular/ComfortaaRegular.woff") format("woff"),
+    url("../fonts/ComfortaaRegular/ComfortaaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ComfortaaLight"; */
+@font-face {
+    font-family: "ComfortaaLight";
+    src: url("../fonts/ComfortaaLight/ComfortaaLight.eot");
+    src: url("../fonts/ComfortaaLight/ComfortaaLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ComfortaaLight/ComfortaaLight.woff") format("woff"),
+    url("../fonts/ComfortaaLight/ComfortaaLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ComfortaaBold"; */
+@font-face {
+    font-family: "ComfortaaBold";
+    src: url("../fonts/ComfortaaBold/ComfortaaBold.eot");
+    src: url("../fonts/ComfortaaBold/ComfortaaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ComfortaaBold/ComfortaaBold.woff") format("woff"),
+    url("../fonts/ComfortaaBold/ComfortaaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 
 /*
 html, body{
@@ -11,7 +46,14 @@ body {
     color: #fdf9f1;
     margin: 0;
     font-size: 15px;
-/*    min-width: 320px;*/
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    /*font-family:"BebasNeueRegular";*/
+    /*font-family: "Calibri Light";*/
+    /*letter-spacing: 5px;*/
+    /*font-family: 'GardensC';*/
+     font-family: "ComfortaaRegular";
+    /*font-family:'El Messiri', sans-serif;*/
 }
 p{
     margin: 0 0 0 20px;
@@ -46,14 +88,14 @@ header {
     color: #fff;
 }
 .navbar-default .navbar-nav > li > a {
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
     font-size: 20px;
     padding-right: 2px;
     color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #b52536;
+    color: #6e6e6e;
     background-color: transparent;
 }
 
@@ -72,7 +114,7 @@ header {
 /*	min-height: 500px;    */
 }
 #main h3 {
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
     padding-bottom: 5%;
     padding-top: 30%;
     margin-right: 5%;
@@ -82,7 +124,7 @@ header {
     padding-top: 20%;
 }
 #main p {
-    font-family: 'El Messiri', sans-serif;
+
     font-size: 16px;
     font-weight: 100;
     margin-right: 25px;
@@ -102,23 +144,23 @@ header {
 }
 */
 #services h3, h4 {
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
     font-size: 34px;
 }
 #services p{
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
     text-align: left;
     line-height: 2;
     margin-left: 30px;
-    font-size: 18px;
+    font-size: 17px;
 }
 #foto p {
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
     font-size: 18px;
     font-weight: 100;
 }
 #foto h3, h4 {
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
 }
 #foto img:hover{
     opacity: 0.5;
@@ -153,21 +195,21 @@ a:focus{
     
 }
 #contact {
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
 }
 #contact {
     background-color: #363534;
     background-repeat: repeat;
 }
 #contact a {
-    font-family: monospace;
+    /*font-family: monospace;*/
     color: #0a0808;
     font-size: 16px;
 }
 
 #contact h4,
 h3 {
-    font-family: 'El Messiri', sans-serif;
+    /*font-family: 'El Messiri', sans-serif;*/
 }
 
 #contact .col-md-12 {
@@ -216,19 +258,9 @@ footer {
 @media (max-width: 480px) {
     #main
     {
-/*        background-image: url(../img/bg/bg_maibn.jpg);*/
+        /*height: 100vh;*/
+        /*background-position: 35%;*/
         background-size: cover;
-/*
-        
-        background: url(../img/bg/bg_main_cr.jpg) center center no-repeat;
-	    background-size: cover;
-
-        background: url(../img/bg/bg_main.jpg) center center no-repeat;
-	    background-size: cover;
-	    height: 100vh;
-        width: 50%;
-        height: 300px;
-*/
     }
     #logo img {
         width: 100px;
@@ -236,13 +268,27 @@ footer {
     #main h3 {
         font-size: 16px;
         
-        padding-top: 15%;
+        /*padding-top: 15%;*/
         padding-bottom: 0;
     }
+    #main_{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
     #main p {
+        /*margin: 0;*/
+        line-height: 20px;
         font-size: 12px;
-        padding-bottom: 10px;
-        line-height: 25px;
+        text-shadow: 1px 1px 2px #0a0808;
+        padding: 0;
+        margin-top: 5px;
+        padding-top: 25px;
+        margin-right: -20px;
+        /*padding-bottom: 25px;*/
+        /*padding-right: 5px;*/
+        /*line-height: 15px;*/
+        /*margin-right: 5px;*/
+        /*margin-left: 80px;*/
         
     }
     #foto p {
